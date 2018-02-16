@@ -12,10 +12,11 @@ let onSuccess = (data) => {
 
 let getData = (data) => {
   localStorage.numConnections = data.numConnections;
+  window.location.href = 'views/home.html';
 };
 
 let onError = (error) => {
-  console.log(error);
+  alert(error);
 };
 
 let getResult = () => {

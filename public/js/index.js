@@ -14,10 +14,11 @@ var onSuccess = function onSuccess(data) {
 
 var getData = function getData(data) {
   localStorage.numConnections = data.numConnections;
+  window.location.href = 'views/home.html';
 };
 
 var onError = function onError(error) {
-  console.log(error);
+  alert(error);
 };
 
 var getResult = function getResult() {
