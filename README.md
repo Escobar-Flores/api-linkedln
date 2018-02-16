@@ -50,11 +50,11 @@ El proyecto presenta los siguientes archivos para uso del usuario:
 
 * Vista principal del proyecto:
 
-![Vista inicio](public/assets/docs/vista-iniciar-sesion.png "Vista inicio")
+![Con titulo](public/assets/docs/vista3.png "titulo")
 
-* Vista del datos del clima del día:
+* Vista tarjeta:
 
-![Vista tarjeta](public/assets/docs/vista-tarjeta.png "VVista tarjeta")
+![Con titulo](public/assets/docs/vista4.png "titulo")
 
 ***
 
