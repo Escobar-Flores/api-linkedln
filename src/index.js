@@ -6,13 +6,14 @@ function onLinkedInLoad() {
 let onSuccess = (data) => {
   localStorage.firstName = data.firstName;
   localStorage.lastName = data.lastName;
-  localStorage.headline = data.lastName;
+  localStorage.headline = data.headline;
   localStorage.siteStandardProfileRequest = data.siteStandardProfileRequest.url;
 };
 
 let getData = (data) => {
   localStorage.numConnections = data.numConnections;
-  window.location.href = 'views/home.html';
+  localStorage.pictureUrl = data.pictureUrl;  
+  window.location.href = 'views/home';
 };
 
 let onError = (error) => {

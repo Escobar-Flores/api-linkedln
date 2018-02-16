@@ -8,13 +8,14 @@ function onLinkedInLoad() {
 var onSuccess = function onSuccess(data) {
   localStorage.firstName = data.firstName;
   localStorage.lastName = data.lastName;
-  localStorage.headline = data.lastName;
+  localStorage.headline = data.headline;
   localStorage.siteStandardProfileRequest = data.siteStandardProfileRequest.url;
 };
 
 var getData = function getData(data) {
   localStorage.numConnections = data.numConnections;
-  window.location.href = 'views/home.html';
+  localStorage.pictureUrl = data.pictureUrl;
+  window.location.href = 'views/home';
 };
 
 var onError = function onError(error) {
