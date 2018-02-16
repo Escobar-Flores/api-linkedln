@@ -1,0 +1,26 @@
+{
+  "name": "api-linkedln",
+  "version": "1.0.0",
+  "description": "A project with Linkedln API",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d public/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Escobar-Flores/api-linkedln.git"
+  },
+  "keywords": [
+    "linkedln"
+  ],
+  "author": "Rocci Escobar y Manuela Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Escobar-Flores/api-linkedln/issues"
+  },
+  "homepage": "https://github.com/Escobar-Flores/api-linkedln#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
